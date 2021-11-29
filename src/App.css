@@ -1,38 +1,83 @@
+
 .App {
   text-align: center;
+background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Capa superior */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+*{margin: 0;padding: 0;
 
-.App-link {
-  color: #61dafb;
-}
+    font-family: sans-serif;}
+    
+    .capa-sup{
+        width: 100%;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        margin:3rem;
+        height: 60vh;
+        height: inherit;
+        width: inherit;
+    }
+    .capa-sup figure{
+       position:relative;
+        height: 400px;
+        cursor: pointer;
+        width: 500px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    }
+    .capa-sup figure img{
+        object-fit: cover;
+      object-position: 50% 0%;
+      width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+    }
+    .capa-sup figure .capa{
+        text-align: center;
+        top : 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(118, 151, 158, 0.7);
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .capa-sup figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+  
+    .capa-sup figure:hover > img{
+        transform: scale(1.3);
+    }
+    .capa-sup figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        width: auto;
+        max-width: 220px;
+        margin-top: 120px;
+        margin-left: 7.5rem;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+   
+    .card-text{
+      width: 70%;
+      display: grid;
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .card-text-p{
+      font-size: 20px;
+
+
+    }
+
+
