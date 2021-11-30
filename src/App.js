@@ -1,10 +1,8 @@
 import NavBar from './Components/Navigation/NavBar.js'
 import {Routes,Route} from 'react-router-dom';
-import logo from './assets/logo.jpg';
 import './App.css';
+import PageRoute from './Components/PageRoute'
 import Home from './Components/pages/Home'
-import Items from "./Components/pages/Items";
-import Logo from "./Components/pages/Logo";
 
 
 
@@ -14,7 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <hr />
-      <Home />
+      <PageRoute />
     </div>
   );
 }

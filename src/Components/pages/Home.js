@@ -3,23 +3,24 @@ import acuatica1 from '../../assets/acuatica1.jpg';
 import puelodic2019 from '../../assets/puelodic2019.jpg'
 import  Carousel  from '../Carousel';
 import venusorna from '../../assets/venusorna.jpg'
-import Footer from '../Footer'
+import Footer from '../Footer.jsx'
+
 
  const Home = () => {
   return (
     <div>
       <Carousel />
-      <div className="capa-ppal">
-        <div className="capa-sup">
-          <figure className="figure">
-            <img src={acuatica1} className="ac1" alt="ac1" />
-            <div className="capa">
-              <p>
-                Plantas carnívoras acuáticas de Argentina en plena floración.
-                Corrientes.
-              </p>
-            </div>
-          </figure>
+      <div className="capa-sup">
+        <div className="card-sup1">
+          <img src={acuatica1} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text">
+              Plantas carnívoras acuáticas de Argentina en plena floración.
+              Corrientes.
+            </p>
+          </div>
+        </div>
+        <div>
           <div className="card-text1">
             <p className="card-text-p">
               Las plantas carnívoras atraen, capturan y digieren a sus presas.
@@ -28,40 +29,43 @@ import Footer from '../Footer'
               gran oportunidad para acercarnos a la naturaleza y entender más
               sobre el mundo que nos rodea.
             </p>
-
             <p className="card-text-p">
               En el Proyecto Carnívoras Argentina hacemos investigación,
               divulgación y cultivo.
             </p>
           </div>
-          <div className="card-text2">
+        </div>
+        <div>
+          <div className="card-text1">
             <p className="card-text-p">
               Investigamos para conocer más sobre la distribución y estados de
               conservación de las especies nativas. Es decir, aquellas especies
               que crecen en estado silvestre en Argentina.
             </p>
-
             <p className="card-text-p">
               Divulgamos para dar a conocer las plantas que nos rodean,
               empatizar con los ecosistemas y así entender la importancia de
               cuidar la naturaleza, de la cual somos parte. Divulgamos mediante
-              publicaciones, <a href="">cursos virtuales</a> y{" "}
-              <a href="">capacitaciones</a> presenciales.
+              publicaciones, <a href="">cursos virtuales</a>  y  
+              <a href="">  capacitaciones</a> presenciales.
             </p>
           </div>
-          <div className="capa-sup">
-            <figure className="figure">
-              <img src={puelodic2019} className="puelo" alt="puelo" />
-              <div className="capa">
-                <p>
-                  Educación ambiental con guardaparques y turistas en el Parque
-                  Nacional Lago Puelo, Chubut.
-                </p>
-              </div>
-            </figure>
+        </div>
+
+        <div className="card-sup1">
+          <img src={puelodic2019} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text">
+              Plantas carnívoras acuáticas de Argentina en plena floración.
+              Corrientes.
+            </p>
           </div>
         </div>
       </div>
+
+      <br />
+      <br />
+
       <div className="card-venus">
         <img src={venusorna} className="card-img-top" alt="..." />
         <div className="card-body">
@@ -69,8 +73,8 @@ import Footer from '../Footer'
         </div>
       </div>
       <div>
-        <div class="card-text-end">
-          <p class="card-text-p">
+        <div className="card-text-end">
+          <p className="card-text-p">
             Cultivamos porque nos encanta. Tenemos distintas especies y cruzas
             que cuidamos siguiendo nuestra política ambiental. Nuestras plantas
             están libres de agrotóxicos, no promueven la predación de especies
@@ -80,19 +84,19 @@ import Footer from '../Footer'
         </div>
       </div>
       <div>
-        <div class="card-text-end">
-          <p class="card-text-p">
+        <div className="card-text-end">
+          <p className="card-text-p">
             Te invitamos a recorrer la página, para aprender más sobre nuestro
-            trabajo con las <a href="">Plantas carnívoras de Argentina</a>. Si querés
-            contactarnos, no dudes en escribirnos a
-             <a href=""> carnivorasargentina@gmail.com</a>
+            trabajo con las <a href="">Plantas carnívoras de Argentina</a>. Si
+            querés contactarnos, no dudes en escribirnos a
+            <a href=""> carnivorasargentina@gmail.com</a>
           </p>
         </div>
       </div>
-      <br/>
-      <br/>
-      <br/>
-      <Footer/>
+      <br />
+      <br />
+      <br />
+      <Footer />
     </div>
   );
 }

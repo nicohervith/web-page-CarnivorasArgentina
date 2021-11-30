@@ -7,7 +7,7 @@ import logocarg from '../../assets/logocarg.png'
 
 const NavBar = () => {
   return (
-    <div className="mb-20">
+    <div className="">
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
         <div className="container-fluid ">
           <Link to="/">
@@ -25,7 +25,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav  mx-auto ml-20">
+            <div className="navbar-nav">
               <ul className="navbar-nav ">
                 <li className="nav-item ">
                   <Link className="nav-link active" to="/">
