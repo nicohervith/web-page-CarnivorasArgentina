@@ -15,11 +15,6 @@ function App() {
       <NavBar />
       <hr />
       <Home />
-      <hr />
-
-      <br />
-      <br />
-      <br />
     </div>
   );
 }

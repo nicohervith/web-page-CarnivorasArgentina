@@ -2,11 +2,13 @@ import React from 'react'
 import acuatica1 from '../../assets/acuatica1.jpg';
 import puelodic2019 from '../../assets/puelodic2019.jpg'
 import  Carousel  from '../Carousel';
+import venusorna from '../../assets/venusorna.jpg'
+import Footer from '../Footer'
 
  const Home = () => {
   return (
     <div>
-      <Carousel/>
+      <Carousel />
       <div className="capa-ppal">
         <div className="capa-sup">
           <figure className="figure">
@@ -43,7 +45,8 @@ import  Carousel  from '../Carousel';
               Divulgamos para dar a conocer las plantas que nos rodean,
               empatizar con los ecosistemas y así entender la importancia de
               cuidar la naturaleza, de la cual somos parte. Divulgamos mediante
-              publicaciones, cursos virtuales y capacitaciones presenciales.
+              publicaciones, <a href="">cursos virtuales</a> y{" "}
+              <a href="">capacitaciones</a> presenciales.
             </p>
           </div>
           <div className="capa-sup">
@@ -59,6 +62,37 @@ import  Carousel  from '../Carousel';
           </div>
         </div>
       </div>
+      <div className="card-venus">
+        <img src={venusorna} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Venus atrapamoscas del cultivo ornamental</p>
+        </div>
+      </div>
+      <div>
+        <div class="card-text-end">
+          <p class="card-text-p">
+            Cultivamos porque nos encanta. Tenemos distintas especies y cruzas
+            que cuidamos siguiendo nuestra política ambiental. Nuestras plantas
+            están libres de agrotóxicos, no promueven la predación de especies
+            silvestres y son cuidadas utilizando la menor cantidad de recursos
+            no renovables.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="card-text-end">
+          <p class="card-text-p">
+            Te invitamos a recorrer la página, para aprender más sobre nuestro
+            trabajo con las <a href="">Plantas carnívoras de Argentina</a>. Si querés
+            contactarnos, no dudes en escribirnos a
+             <a href=""> carnivorasargentina@gmail.com</a>
+          </p>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <Footer/>
     </div>
   );
 }

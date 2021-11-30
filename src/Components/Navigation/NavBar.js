@@ -1,16 +1,17 @@
 
 import {Link} from 'react-router-dom';
 import logo from '../../assets/logo.jpg'
+import logocarg from '../../assets/logocarg.png'
 
 
 
 const NavBar = () => {
   return (
     <div className="mb-20">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light mx-auto mb-20">
-        <div className="container-fluid mx-auto mb-20 px-10">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
+        <div className="container-fluid ">
           <Link to="/">
-            <img className="card-logo" src="../../assets/logo.jpg" alt="logo" />
+            <img className="card-logo" src={logocarg} alt="logo" />
           </Link>
           <button
             className="navbar-toggler"
@@ -24,9 +25,9 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav mx-auto">
-              <ul className="navbar-nav mx-auto">
-                <li className="nav-item mx-auto">
+            <div className="navbar-nav  mx-auto ml-20">
+              <ul className="navbar-nav ">
+                <li className="nav-item ">
                   <Link className="nav-link active" to="/">
                     Home
                   </Link>

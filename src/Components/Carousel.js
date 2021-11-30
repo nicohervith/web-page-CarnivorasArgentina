@@ -1,7 +1,10 @@
 import React from 'react'
-import venus from '../assets/venus.jpg'
-import nep from "../assets/nep.jpg";
-import hibridas from "../assets/hibridas.jpg";
+import venus5 from '../assets/venus5.png'
+import hibridas from "../assets/hibridas.png";
+import nepenthes from '../assets/nepenthes.png'
+import collage1 from '../assets/collage1.jpg'
+import collage2 from "../assets/collage2.jpg";
+import collage3 from "../assets/collage3.jpg";
 
 const Carousel = () =>{
   return (
@@ -14,13 +17,13 @@ const Carousel = () =>{
                 </div>
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src={venus} className="d-block w-100 " alt="..."/>
+                    <img src={collage1} className="d-block" alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src={nep} className="d-block w-80" alt="..."/>
+                    <img src={collage2} className="d-block" alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src={hibridas} className="d-block w-80" alt="..."/>
+                    <img src={collage3} className="d-block" alt="..."/>
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
