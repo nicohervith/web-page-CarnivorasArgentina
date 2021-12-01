@@ -220,3 +220,25 @@ margin-top: 1rem;
     border-radius: 6px;
    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
+
+/********** Page 4 ************/
+
+.card-pc{
+  margin-left: 14rem;
+  width: 80%;
+  height: auto;
+  display:grid;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+
+}
+
+.card-pc-nep{
+  margin-left: 10rem;
+  width: 80%;
+  height: auto;
+  display:grid;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+
+}

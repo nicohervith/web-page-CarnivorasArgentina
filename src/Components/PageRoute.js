@@ -4,6 +4,8 @@ import AboutUs from './pages/AboutUs'
 import Contact from './pages/Contact';
 import PageRoutes from "./PageRoutes";
 import Capacitaciones from "./pages/Capacitaciones";
+import Cursos from "./pages/Cursos";
+import Inscripcion from "./pages/Inscripcion";
 
 const PageRoute = () => {
   return (
@@ -14,6 +16,8 @@ const PageRoute = () => {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="/capacitaciones" element={<Capacitaciones />} />
+        <Route path="/cursos" element={<Cursos />} />
+        <Route path="/inscripciones" element={<Inscripcion/>}/>
       </Routes>
     </div>
   );

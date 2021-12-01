@@ -58,9 +58,17 @@ const NavBar = () => {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <Link to="/cursos" className="text-reset">
+                        - Nuestros cursos
+                      </Link>
+                    </li>
+                    <li>
+                      <hr className="dropdown-divider" />
+                    </li>
+                    <li>
+                      <Link to="/inscripciones" className="text-reset">
                         - Inscripción a cursos
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
