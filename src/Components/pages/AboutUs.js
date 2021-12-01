@@ -22,6 +22,7 @@ import me2 from "../../assets/me2.jpg";
           carnívoras y su conservación.
         </p>
       </div>
+
       <div className="capa-sup2">
         <div className="card-sup2">
           <img src={inv1} className="card-img-top" alt="..." />
@@ -69,7 +70,7 @@ import me2 from "../../assets/me2.jpg";
       <h2 class="card-title2">Sobre mi</h2>
       <div className="capa-sup2">
         <div className="card-textp2">
-          <p className="card-text-p">
+          <p className="card-text-p-about">
             Soy Federico Ezequiel Parrilli. Nací en Buenos Aires y la jungla de
             cemento me incentivó a llenar de verde cada espacio que pude.
             Primero, con cualquier planta que haga fotosíntesis y después con un
@@ -111,6 +112,8 @@ import me2 from "../../assets/me2.jpg";
           </p>
         </div>
       </div>
+      <br/>
+      <br/>
       <Footer />
     </div>
   );

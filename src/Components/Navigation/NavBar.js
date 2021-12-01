@@ -58,7 +58,11 @@ const NavBar = () => {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <Link to="/cursos" className="text-reset">
+                      <Link
+                        to="/cursos"
+                        className="dropdown-item"
+                        
+                      >
                         - Nuestros cursos
                       </Link>
                     </li>
@@ -66,7 +70,7 @@ const NavBar = () => {
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <Link to="/inscripciones" className="text-reset">
+                      <Link className="dropdown-item" to="/inscripciones">
                         - Inscripción a cursos
                       </Link>
                     </li>
@@ -88,33 +92,33 @@ const NavBar = () => {
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <Link className="dropdown-item" to="/libro">
                         - Libro
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <Link className="dropdown-item" to="/jurassic-plant">
                         - Jardín botánico Jurassic Plant
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <Link className="dropdown-item" to="/refugio-nativas">
                         - Refugio de Plantas Carnívoras Nativas
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <Link class="dropdown-item" to="/red-list">
                         - Red list carnívoras Argentina
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>

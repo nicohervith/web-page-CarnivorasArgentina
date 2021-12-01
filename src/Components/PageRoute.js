@@ -6,6 +6,10 @@ import PageRoutes from "./PageRoutes";
 import Capacitaciones from "./pages/Capacitaciones";
 import Cursos from "./pages/Cursos";
 import Inscripcion from "./pages/Inscripcion";
+import Libro from './pages/Libro'
+import JurassicPlant from "./pages/JurassicPlant";
+import Refugio from "./pages/Refugio";
+import Redlist from "./pages/Redlist";
 
 const PageRoute = () => {
   return (
@@ -18,6 +22,10 @@ const PageRoute = () => {
         <Route path="/capacitaciones" element={<Capacitaciones />} />
         <Route path="/cursos" element={<Cursos />} />
         <Route path="/inscripciones" element={<Inscripcion/>}/>
+        <Route path="/libro" element={<Libro/>} />
+        <Route path="/jurassic-plant" element={<JurassicPlant/>}/>
+        <Route path="/refugio-nativas" element={<Refugio/>}/>
+        <Route path="/red-list" element={<Redlist/>}/>
       </Routes>
     </div>
   );
