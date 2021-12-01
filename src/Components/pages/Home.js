@@ -46,8 +46,8 @@ import Footer from '../Footer.jsx'
               Divulgamos para dar a conocer las plantas que nos rodean,
               empatizar con los ecosistemas y así entender la importancia de
               cuidar la naturaleza, de la cual somos parte. Divulgamos mediante
-              publicaciones, <a href="">cursos virtuales</a>  y  
-              <a href="">  capacitaciones</a> presenciales.
+              publicaciones, <a href="">cursos virtuales</a> y
+              <a href="/capacitaciones"> capacitaciones</a> presenciales.
             </p>
           </div>
         </div>
@@ -56,8 +56,8 @@ import Footer from '../Footer.jsx'
           <img src={puelodic2019} className="card-img-top" alt="..." />
           <div className="card-body">
             <p className="card-text">
-              Plantas carnívoras acuáticas de Argentina en plena floración.
-              Corrientes.
+              Educación ambiental con guardaparques y turistas en el Parque
+              Nacional Lago Puelo, Chubut.
             </p>
           </div>
         </div>

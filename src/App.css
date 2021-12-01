@@ -7,12 +7,9 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
 }
 
 .card-logo{
-  height: 105px;
-  width: 245px;;
+  height: 125px;
+  width: 250px;;
 }
-
-
-
 
 .navbar-nav{
   margin-left: 4rem;
@@ -38,6 +35,13 @@ margin-top: 1rem;
    padding:2rem 
 }
 
+    .capa-sup1{
+  display:grid;
+   grid-template-columns: 50% 50%;
+ padding:3rem;
+
+}
+
 .card-sup1{
   margin:auto;
   width:90%;
@@ -47,7 +51,7 @@ margin-top: 1rem;
    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
    
   }
-  
+
 .card-venus{
   margin:auto;
   width:50%;
@@ -78,3 +82,141 @@ margin-top: 1rem;
 
 
 
+      /**************** SOCIAL BAR ***********************/
+
+    .social-bar {
+	position:fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-instagram {
+  background: #3F60A5;
+}
+.icon-youtube {
+	background: #E83028;
+}
+
+
+.icon:first-child {
+	border-radius:  1rem 0 0;
+}
+
+.icon:last-child {
+	border-radius:  0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 4rem;
+	border-radius: 1rem 0 1rem;
+
+}
+
+.card-title{
+  font-weight: bold;
+  margin-top: 2rem;;
+
+}
+
+.card-title2{
+  font-weight: bold;
+  margin-top:2rem;;
+}
+
+
+/********* Page2 **********/
+
+
+    .capa-sup2{
+  display:grid;
+   grid-template-columns: 50% 50%;
+ padding:3rem;
+
+}
+
+.card-sup2{
+  margin:2rem;
+  width:90%;
+   object-fit: cover;
+   object-position: 50% 0%;
+   border-radius: 6px;
+   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  
+  }
+
+  .card-sup-me{
+    margin:2rem;
+    margin-top: 7rem;
+  width:90%;
+  height: 300px;
+   object-fit: cover;
+   object-position: 50% 0%;
+   border-radius: 6px;
+   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  }
+
+  .card-sup-me2{
+    margin:2rem;
+   width:90%;
+   height: 300px;
+   object-fit: cover;
+   object-position: 50% 0%;
+   border-radius: 6px;
+   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  }
+
+
+
+   .card-text-end2{
+      margin:4rem;
+      margin-top: 2rem;
+      text-align: center;
+  
+    }
+    .card-text-p2{
+      font-size: 20px;
+      margin-top: 2rem;
+    }
+
+       .card-textp2{
+      margin:3rem;
+       text-align: center;
+    }
+
+
+/************** Page 3 *****************/
+.card-p3{
+  margin:auto;
+  width:40%;
+   object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 6px;
+   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.card-pp3{
+  margin:auto;
+    width:70%;
+    height: 100%;
+   object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 6px;
+   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}

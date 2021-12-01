@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Contact from './pages/Contact';
 import PageRoutes from "./PageRoutes";
+import Capacitaciones from "./pages/Capacitaciones";
 
 const PageRoute = () => {
   return (
@@ -12,6 +13,7 @@ const PageRoute = () => {
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contacto" element={<Contact />} />
+        <Route path="/capacitaciones" element={<Capacitaciones />} />
       </Routes>
     </div>
   );

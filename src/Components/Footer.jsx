@@ -25,6 +25,7 @@ const Footer = () => {
                 <a
                   href="https://www.facebook.com/carnivorasargentina/"
                   className="text-reset"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="bi bi-facebook"></i>
@@ -32,6 +33,7 @@ const Footer = () => {
                 <a
                   href="https://www.instagram.com/carnivorasargentina/"
                   class="text-reset"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="bi bi-instagram"></i>
@@ -39,6 +41,7 @@ const Footer = () => {
                 <a
                   href="https://www.youtube.com/channel/UCKTLDeDktDOUG7icVi97wCQ/featured"
                   className="text-reset"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="bi bi-youtube"></i>
@@ -46,6 +49,7 @@ const Footer = () => {
                 <a
                   href="carnivorasargentina@gmail.com"
                   className="text-reset"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="bi bi-envelope"></i>

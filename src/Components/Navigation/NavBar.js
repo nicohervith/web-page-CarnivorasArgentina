@@ -1,6 +1,6 @@
 
 import {Link} from 'react-router-dom';
-import logo from '../../assets/logo.jpg'
+
 import logocarg from '../../assets/logocarg.png'
 
 
@@ -59,7 +59,7 @@ const NavBar = () => {
                   >
                     <li>
                       <a class="dropdown-item" href="#">
-                        - Libro
+                        - Inscripción a cursos
                       </a>
                     </li>
                   </ul>
