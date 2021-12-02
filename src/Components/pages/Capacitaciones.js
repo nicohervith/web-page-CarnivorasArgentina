@@ -60,7 +60,7 @@ const Capacitaciones = () => {
       <br />
       <br />
 
-      <div className="capa-sup">
+      <div className="contenedor">
         <div className="card-pp3">
           <img src={jardinbot} className="card-img-top" alt="..." />
           <div className="card-body">

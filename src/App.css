@@ -93,66 +93,12 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
       .navbar-nav{
         grid-column: 1/-1
       }
+
+       .contenedor .card-sup2{
+        grid-column: 1/-1;
+      }
     }
 
-
-      /**************** SOCIAL BAR ***********************/
-
-    .social-bar {
-	position:fixed;
-	right: 0;
-	top: 35%;
-	font-size: 1.5rem;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	z-index: 100;
-}
-
-.icon {
-	color: white;
-	text-decoration: none;
-	padding: .7rem;
-	display: flex;
-	transition: all .5s;
-}
-
-.icon-facebook {
-	background: #2E406E;
-}
-
-.icon-instagram {
-  background: #3F60A5;
-}
-.icon-youtube {
-	background: #E83028;
-}
-
-
-.icon:first-child {
-	border-radius:  1rem 0 0;
-}
-
-.icon:last-child {
-	border-radius:  0 0 1rem;
-}
-
-.icon:hover {
-	padding-right: 4rem;
-	border-radius: 1rem 0 1rem;
-
-}
-
-.card-title{
-  font-weight: bold;
-  margin-top: 2rem;;
-
-}
-
-.card-title2{
-  font-weight: bold;
-  margin-top:2rem;;
-}
 
 
 /********* Page2 **********/
@@ -166,7 +112,7 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
 }
 
 .card-sup2{
-  margin:2rem;
+  margin: 1.5em;
   width:90%;
    object-fit: cover;
    object-position: 50% 0%;
@@ -176,10 +122,9 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
   }
 
   .card-sup-me{
-    margin:2rem;
+    margin:auto;
     margin-top: 3.5rem;
-  width:90%;
-  height: 200px;
+    width:90%;
    object-fit: cover;
    object-position: 50% 0%;
    border-radius: 6px;
@@ -189,7 +134,7 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
   .card-sup-me2{
     margin:2rem;
    width:90%;
-   height: 300px;
+   height: auto;
    object-fit: cover;
    object-position: 50% 0%;
    border-radius: 6px;
@@ -428,4 +373,62 @@ margin-top: 1rem;
   margin:auto;
   width: 60%;
   height: auto;
+}
+
+  /**************** SOCIAL BAR ***********************/
+
+    .social-bar {
+	position:fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-instagram {
+  background: #3F60A5;
+}
+.icon-youtube {
+	background: #E83028;
+}
+
+
+.icon:first-child {
+	border-radius:  1rem 0 0;
+}
+
+.icon:last-child {
+	border-radius:  0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 4rem;
+	border-radius: 1rem 0 1rem;
+
+}
+
+.card-title{
+  font-weight: bold;
+  margin-top: 2rem;;
+
+}
+
+.card-title2{
+  font-weight: bold;
+  margin-top:2rem;;
 }

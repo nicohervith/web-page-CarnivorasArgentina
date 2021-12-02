@@ -20,7 +20,7 @@ import mapa from '../../assets/mapa.png'
           <b>«Kevin» Isaías Vergara y Federico E. Parrilli</b>.
         </p>
       </div>
-      <div className="capa-sup">
+      <div className="contenedor">
         <div className="card-sup1">
           <img src={utricularia} className="card-img-top" alt="..." />
           <div className="card-body">
