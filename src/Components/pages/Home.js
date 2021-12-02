@@ -10,7 +10,7 @@ import Footer from '../Footer.jsx'
   return (
     <div>
       <Carousel />
-      <div className="capa-sup">
+      <div className="contenedor">
         <div className="card-sup1">
           <img src={acuatica1} className="card-img-top" alt="..." />
           <div className="card-body">
@@ -20,7 +20,7 @@ import Footer from '../Footer.jsx'
             </p>
           </div>
         </div>
-        <div>
+        <div className="card-sup1">
           <div className="card-text1">
             <p className="card-text-p">
               Las plantas carnívoras atraen, capturan y digieren a sus presas.
@@ -35,7 +35,7 @@ import Footer from '../Footer.jsx'
             </p>
           </div>
         </div>
-        <div>
+        <div className="card-sup1">
           <div className="card-text1">
             <p className="card-text-p">
               Investigamos para conocer más sobre la distribución y estados de
