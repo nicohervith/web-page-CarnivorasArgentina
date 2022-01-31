@@ -97,6 +97,15 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
        .contenedor .card-sup2{
         grid-column: 1/-1;
       }
+      
+      .contenedor-p3 .card-pp3{
+        grid-column: 1/-1;
+        margin:auto;
+        
+        
+        
+      }
+
     }
 
 
@@ -165,9 +174,21 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
     }
 
 /************** Page 3 *****************/
+
+.contenedor-p3{
+     margin-top: 1rem;
+    max-width: 2000px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2,auto);
+    padding:2rem;
+    
+}
+
 .card-p3{
+
   margin:auto;
-  width:40%;
+  width:60%;
    object-fit: cover;
     object-position: 50% 0%;
     border-radius: 6px;
@@ -175,8 +196,60 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
 }
 
 .card-pp3{
+    
+    width: 90%;
+    height: 100%;
+   object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 6px;
+   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+   
+}
+
+
+
+/*
+.card-sup1{
+  margin:1.5rem;
+   object-fit: cover;
+   object-position: 50% 0%;
+   border-radius: 6px;
+   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+   
+  }
+    .capa-sup1{
+      width:90%;
+  display:grid;
+   grid-template-columns: 50% 50%;
+ padding:3rem;
+
+}
+*/
+/********** Page 4 ************/
+
+.card-pc{
+  
+  width: 80%;
+  height: auto;
+  display:inline-block;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+
+}
+
+.card-pc-nep{
+ 
+  width: 80%;
+  height: auto;
+  display:inline-block;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+
+}
+
+.card-pp4{
   margin:auto;
-    width:70%;
+    width:90%;
     height: 100%;
    object-fit: cover;
     object-position: 50% 0%;
@@ -184,27 +257,7 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 
-/********** Page 4 ************/
 
-.card-pc{
-  margin-left: 14rem;
-  width: 80%;
-  height: auto;
-  display:grid;
-  align-items: center;
-  grid-template-columns: 50% 50%;
-
-}
-
-.card-pc-nep{
-  margin-left: 10rem;
-  width: 80%;
-  height: auto;
-  display:grid;
-  align-items: center;
-  grid-template-columns: 50% 50%;
-
-}
 
 /****************  Form ********************/
 

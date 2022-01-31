@@ -33,12 +33,12 @@ import Footer from '../Footer'
           </p>
           <br />
         </div>
-        <div className="card-pp3">
+        <div className="card-pp4">
           <img src={collage4} className="card-img-bottom" alt="..." />
         </div>
       </div>
 
-      <div class="card-pc">
+      <div class="card-pc-nep">
         <div class="">
           <div class="">
             <div class="card-body">
@@ -53,7 +53,7 @@ import Footer from '../Footer'
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+      
           <div class="">
             <div class="">
               <p class="card-text">
@@ -68,7 +68,7 @@ import Footer from '../Footer'
               </p>
             </div>
           </div>
-        </div>
+        
       </div>
       <div className="card-text-end2">
         <p class="card-text-p2">
@@ -85,15 +85,15 @@ import Footer from '../Footer'
 
           <br />
         </div>
-        <div className="card-pp3">
+        <div className="card-pp4">
           <img src={collage5} className="card-img-bottom" alt="..." />
         </div>
       </div>
 
-      <div class="card-pc">
+      <div class="card-pc-nep">
         <div class="">
           <div class="">
-            <p class="card-text">
+            <p class="">
               <p></p>
               <br />
               <p> – Curiosidades históricas de la Venus atrapamoscas </p>
@@ -104,7 +104,7 @@ import Footer from '../Footer'
             </p>
           </div>
         </div>
-        <div class="col-sm-6">
+        
           <div class="">
             <div class="">
               <p class="card-text">
@@ -118,7 +118,7 @@ import Footer from '../Footer'
               </p>
             </div>
           </div>
-        </div>
+       
       </div>
       <div className="card-text-end2">
         <p class="card-text-p2">
@@ -135,7 +135,7 @@ import Footer from '../Footer'
           <h5 class="card-title">Curso de Nepenthes </h5>
           <br />
         </div>
-        <div className="card-pp3">
+        <div className="card-pp4">
           <img src={collage6} className="card-img-bottom" alt="..." />
         </div>
       </div>
@@ -143,7 +143,7 @@ import Footer from '../Footer'
       <div class="card-pc-nep">
         <div class="">
           <div class="">
-            <p class="card-text">
+            <p class="">
               <p></p>
               <br />
               <p>
