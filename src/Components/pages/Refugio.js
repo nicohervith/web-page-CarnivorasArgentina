@@ -55,7 +55,11 @@ const Refugio = () => {
       <br />
       <br />
       <br />
-      <img src={scollagerecarni} alt="" />
+      <div class="container-image">
+        <div className="container-image-refugio">
+          <img src={scollagerecarni} alt="" />
+        </div>
+      </div>
       <br />
       <br />
       <br />
@@ -69,7 +73,8 @@ const Refugio = () => {
         </div>
         <ul className="list-group ">
           <li className="list-group-item">
-            <b>A)</b> Investigación en campo para identificar especies y distribución.
+            <b>A)</b> Investigación en campo para identificar especies y
+            distribución.
           </li>
           <li className="list-group-item">
             <b>B)</b> Muestreo de ejemplares rotulados como elementos para la
@@ -77,20 +82,21 @@ const Refugio = () => {
             RECARNI mediante un banco de germoplasma.
           </li>
           <li className="list-group-item">
-            <b>C)</b> Capacitación al personal de la reserva que le permitirá conocer
-            las especies de carnívoras nativas que alberga el área protegida
+            <b>C)</b> Capacitación al personal de la reserva que le permitirá
+            conocer las especies de carnívoras nativas que alberga el área
+            protegida
           </li>
           <li className="list-group-item">
-            <b>D)</b> Quien administra el ANP contará con fichas de cada especie de
-            planta carnívora presente en su territorio protegido.
+            <b>D)</b> Quien administra el ANP contará con fichas de cada especie
+            de planta carnívora presente en su territorio protegido.
           </li>
           <li className="list-group-item">
-            <b>E)</b> Inclusión en el Sistema de Información Geográfica del proyecto
-            Carnívoras Argentina.
+            <b>E)</b> Inclusión en el Sistema de Información Geográfica del
+            proyecto Carnívoras Argentina.
           </li>
           <li className="list-group-item">
-            <b>F)</b> Logo del RECARNI para poder usar en cartelería y redes como
-            promoción de su trabajo en conservación.
+            <b>F)</b> Logo del RECARNI para poder usar en cartelería y redes
+            como promoción de su trabajo en conservación.
           </li>
         </ul>
       </div>

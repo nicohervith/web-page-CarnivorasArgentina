@@ -7,8 +7,8 @@ import mapa from '../../assets/mapa.png'
  const JurassicPlant = () => {
   return (
     <div>
-      <div className="jurassic-card">
-        <img src={logojurassic} alt="" />
+      <div className="jurassic-card-container">
+        <img className="jurassic-card" src={logojurassic} alt="" />
       </div>
       <div className="card-text-endjp">
         <p class="card-text-p2">
@@ -20,14 +20,16 @@ import mapa from '../../assets/mapa.png'
           <b>«Kevin» Isaías Vergara y Federico E. Parrilli</b>.
         </p>
       </div>
-      <div className="contenedor">
-        <div className="card-sup1">
-          <img src={utricularia} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <p className="card-text">
-              Utricularia foliosa, una de las carnívoras nativas que se pueden
-              hallar en las excursiones guiadas.
-            </p>
+      <div className="contenedor-jp">
+        <div class="contenedor-utricularia">
+          <div className="card-sup-jp">
+            <img src={utricularia} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <p className="card-text">
+                Utricularia foliosa, una de las carnívoras nativas que se pueden
+                hallar en las excursiones guiadas.
+              </p>
+            </div>
           </div>
         </div>
         <div className="card-text-jp">
@@ -47,7 +49,11 @@ import mapa from '../../assets/mapa.png'
       <div class="card-jp">
         <img src={mapa} class="card-img-top" alt="..." />
         <div class="">
-          <p class="card-text-p">
+          <br />
+          <br />
+          <br />
+          <br />
+          <p class="card-text-p-jp">
             Corrientes es la provincia Argentina que tiene mayor cantidad de
             plantas carnívoras nativas. El proyecto Jurassic Plant apunta a
             aumentar la valoración del patrimonio biológico de los Esteros del

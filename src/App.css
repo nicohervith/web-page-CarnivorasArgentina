@@ -85,6 +85,10 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
     }
 
 
+    .headerh1{
+          font-size:25px
+    }
+
     @media screen and ( max-width:768px){
       
       .contenedor .card-sup1{
@@ -98,13 +102,80 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
         grid-column: 1/-1;
       }
       
-      .contenedor-p3 .card-pp3{
-        grid-column: 1/-1;
+      .contenedor-capacitaciones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         margin:auto;
-        
-        
+        width: 80%;
+      }
+
+      .subcontenedor-capacitaciones{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        width: 70%;
         
       }
+
+      .card-libro{
+        margin:auto;
+        width:80%;
+      }
+
+      .container-text-capacitaciones{
+          margin:auto;
+          text-align: center;
+          width: 80%;
+          height: auto;
+  }
+
+      .card-p3{
+          min-width: 300px;
+      }
+
+      .headerh1{
+        width: 80%;
+        margin:auto;
+        margin-bottom: 20px;
+      }
+
+      .contenedor-utricularia{
+        margin:auto;
+        width: 80%;
+      }
+
+      .card-sup-jp{
+          margin:center;
+          max-width: 280px;
+
+      }
+
+      .container-image{
+          display: grid;
+          margin: auto;
+          width: 100px;
+          height: auto;
+      }
+      .container-image-refugio{
+         display: grid;
+          width: 100px;
+          height: auto;
+      }
+
+      .capa-sup-redlist{
+        min-width: 330px;
+      }
+
+      .capa-sup-redlist{
+        min-width: 330px;
+      }
+
+
 
     }
 
@@ -175,36 +246,58 @@ background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, F
 
 /************** Page 3 *****************/
 
-.contenedor-p3{
-     margin-top: 1rem;
-    max-width: 2000px;
-    display:grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(2,auto);
-    padding:2rem;
+.contenedor-capacitaciones{
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    object-fit: cover;
+
+}
+
+.subcontenedor-capacitaciones{
+    display: flex;
+     width: 900px;
+     height:450px;
     
+}
+
+.contenedor-card-capacitaciones{
+    margin:15px;
+    width: 100%;
+    height: auto;
+   object-fit: cover;
+    border-radius: 6px;
+   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+   
+}
+
+.container-text-capacitaciones{
+  margin:auto;
+  text-align: center;
+  width: 80%;
+  height: auto;
+}
+
+
+
+.card-text-capacitaciones{
+  margin:auto;
+  text-align: center;
 }
 
 .card-p3{
 
   margin:auto;
-  width:60%;
-   object-fit: cover;
-    object-position: 50% 0%;
-    border-radius: 6px;
-   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  width:40%;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 
-.card-pp3{
-    
-    width: 90%;
-    height: 100%;
-   object-fit: cover;
-    object-position: 50% 0%;
-    border-radius: 6px;
-   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-   
-}
 
 
 
@@ -340,22 +433,49 @@ td {
 
 
 .card-libro{
-  margin:3rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  justify-content: center;
   width: 90%;
   object-fit: cover;
-    object-position: 50% 0%;
-    border-radius: 6px;
-   box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+   border-radius: 6px;
+   box-shadow: 0px 15px 15px rgba(0,0,0,0.50);
 
 }
 
-/************  Jurassic plant  ************/
- .jurassic-card{
-    object-fit: cover;
-    object-position: 50% 0%;
-   
-    }
 
+
+/************  Jurassic plant  ************/
+ 
+.jurassic-card-container{
+       display: flex;
+        flex-wrap: wrap;
+        margin:auto;
+        justify-content: center;
+        width: 90%;
+        object-fit: cover;
+}
+
+.jurassic-card{
+      width: 50%;
+}
+
+.contenedor-jp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+    .card-sup-jp{
+      margin: auto;
+      width: 700px;
+      object-fit: cover;
+      object-position: 50% 0%;
+      border-radius: 6px;
+      box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+
+    }
 
 .card-text-endjp{
       margin:4rem;
@@ -364,20 +484,22 @@ td {
   
     }
 
+
       .card-textp2{
       margin:3rem;
        text-align: center;
     }
 
      .card-text-jp{
-      margin:3rem;
+      margin:auto;
       margin-top: 2.5rem;
        text-align: center;
     }
     
     .card-text-p-jp{
       font-size: 22px;
-      margin-top: 3rem;
+      margin:auto;
+      width: 80%;
     }
 
    .card-jp {
@@ -385,6 +507,9 @@ td {
      margin:auto;
      margin-top: 4rem;
    }
+
+
+   /***** Refugio *******/
 
    .card-text-refugio{
      width:80%;
@@ -402,11 +527,31 @@ td {
 
    }
 
+   .container-image{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 300px;
+     margin:auto;
+
+   }
+
+   .container-image-refugio {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+      width: 300px;
+      margin:auto;
+
+   }
+
    /**********  REDLIST **********/ 
 
 .redlist-img{
   margin: auto;
   width: auto;
+  min-width: 300px;
     object-fit: cover;
     object-position: 50% 0%;
     border-radius: 6px;
@@ -419,12 +564,14 @@ margin-top: 1rem;
   display:grid;
   align-items: center;
   margin:auto;
+  
   width: 50%;
    padding:2rem 
 }
 .card-sup-uicn{
   margin:auto;
   width: 60%;
+  min-width: 300px;
   height: auto;
 }
 

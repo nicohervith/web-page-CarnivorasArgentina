@@ -109,7 +109,7 @@ const NavBar = () => {
                     </li>
                     <li>
                       <Link className="dropdown-item" to="/refugio-nativas">
-                        - Refugio de Plantas Carnívoras Nativas
+                        - Refugio Plantas Nativas
                       </Link>
                     </li>
                     <li>
